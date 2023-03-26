@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 10%;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
+
+}
+
+.box{
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 75px -50px black;
+}
+
+.top-box{
+    display: flex;
+    width: 100%;
+}
+
+.bottom-box{
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.join{
+    margin: 0 auto;
+    width: 600px;
+    height: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+}
+
+.join > h3{
+    margin: 30px 0 20px 40px;
+    color: hsl(179, 62%, 43%);
+    letter-spacing: 1px;
+}
+
+.join > h4{
+    margin: 5px 0 20px 40px;
+    letter-spacing: 1px;
+    color: hsl(71, 73%, 54%);
+}
+
+.join > p{
+    margin: 10px 0 10px 40px;
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.price{
+    width: 300px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 5px;
+}
+
+.price > h5{
+    letter-spacing: 1px;
+    color: white;
+    margin: 25px 0 0 40px ;
+}
+
+.price > div{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 35px;
+    color: white;
+}
+
+.price > p{
+    color: white;
+    margin: -10px 0 0 35px;
+    font-size: 14px;
+}
+
+.btn{
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    margin-top: 40px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 25px -10px black;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.price > div > p{
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.permonth{
+    font-size: 12px;
+}
+
+.why{
+    margin: 0;
+    width: 300px;
+    height: 250px;
+    background-color: hsl(179, 43%, 50%);
+    border-radius: 0 0 5px 0;
+    color: white;
+}
+
+.why > h5{
+    letter-spacing: 1px;
+    color: white;
+    margin: 25px 0 0 40px ;
+}
+
+.why > ul{
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+    
+.footer{
+    color: rgb(185, 180, 223);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer > a{
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+/********************************* Mobile ********************************/
+
+@media only screen and (max-width: 375px) {
+
+
+    body{
+        margin: 0;
+        padding: 15px;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto Condensed', sans-serif;
+        overflow: hidden;
+        
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 10px 10px 75px -50px black;
+    }
+
+    .bottom-box{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    .join > p{
+        margin: 10px 0 10px 20px;
+        color: hsl(218, 22%, 67%);
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .join > h3{
+        margin: 30px 0 20px 20px;
+        color: hsl(179, 62%, 43%);
+        letter-spacing: 1px;
+    }
+    
+    .join > h4{
+        margin: 5px 0 20px 20px;
+        letter-spacing: 1px;
+        color: hsl(71, 73%, 54%);
+    }
+
+    .join{
+        font-size: 10px;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px 5px 0 0;
+    }
+
+    .price{
+        font-size: 10px;
+        width: 200px;
+        height: 200px;
+        background-color: hsl(179, 62%, 43%);
+        border-radius: 0 0 0 0;
+    }
+
+    .price > h5{
+        letter-spacing: 1px;
+        color: white;
+        margin: 25px 0 0 20px ;
+    }
+
+    .price > div{
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 20px;
+        color: white;
+    }
+
+    .price > div > p{
+        font-weight: lighter;
+        margin-left: 5px;
+    }
+
+    .price > p{
+        color: white;
+        margin: 0px 0 0 20px;
+        font-size: 14px;
+    }
+
+    .btn{
+        border: none;
+        background-color: hsl(71, 73%, 54%);
+        color: white;
+        margin-top: 20px;
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        box-shadow: 10px 10px 25px -10px black;
+    }
+
+    .why{
+        margin: 0;
+        width: 200px;
+        height: 200px;
+        background-color: hsl(179, 43%, 50%);
+        border-radius: 0 0 5px 5px;
+        color: white;
+    }
+
+    .why > h5{
+        letter-spacing: 1px;
+        color: white;
+        margin: 25px 0 0 20px ;
+    }
+    
+    .why > ul{
+        padding-left: 20px;
+        margin-top: 20px;
+        list-style-type: none;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer{
+       visibility: hidden;
+    }
+}
